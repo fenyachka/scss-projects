@@ -1,0 +1,34 @@
+//SECTION-SUBSCRIBE
+.section-subscribe {
+  height: 10vh;
+  &__bg {
+    padding: 20rem 0;
+    background-image: linear-gradient(
+                    to right bottom,
+                    rgba($color-primary, 0.8),
+                    rgba($color-primary-dark, 0.8)),
+    url(../assets/img/slide_1.jpg);
+    background-size: cover;
+    background-position:bottom center;
+    margin-top: -10rem;
+  }
+}
+//.subscribe-block{
+//  height: 100%;
+//  width: 100%;
+//  background-color: $color-grey-light-4;
+//  padding: 3rem;
+//}
+
+
+
+
+section > .container {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+  min-height: 100vh; 
+}
+
+
+
+

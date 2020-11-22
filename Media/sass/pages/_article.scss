@@ -1,0 +1,29 @@
+//ARTICLES
+.articles{
+    padding: 25rem 0;
+    margin-top: -14vh;
+    @media (max-width: 575.98px) { 
+        margin-top: -22vh;
+      }
+
+    .article-block{
+        border-top: 2px solid $color-grey-light-5;
+        padding: 2.5rem;
+
+       
+       
+        @media (max-width: 575.98px) { 
+          flex-direction: column;  
+        }
+
+        .icon{
+            padding-right: .8rem;
+            &-pdf{
+                font-size: 5rem;
+                color: $color-primary;
+            }
+        }
+    }
+
+
+}

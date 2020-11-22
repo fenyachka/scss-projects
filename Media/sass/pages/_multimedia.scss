@@ -1,0 +1,44 @@
+.multimedia{
+    padding:0 0 10rem 0;
+
+    &__box{
+        background-color: $color-white;
+        box-shadow: $shadow-light;
+        padding-top: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    &__img{
+        width: 100%;
+        box-shadow: $shadow-light;
+        margin-bottom: 3rem;
+        height: auto;
+    }
+    &__date{
+ 
+        
+         // background-color: $color-primary-dark;
+          color: $color-primary;
+          border-radius: 2px;
+          padding:2px;
+          font-size: 1.4rem;
+    }
+    &__name{
+        font-family: "bebas-neue-bold";
+    color: #c73450;
+    font-size: 1.8rem;
+    }
+    &__title{
+        font-family: $font-BebasNeueBold;
+        font-size: 2.4rem;
+        &--prev{
+            font-size: 1.8rem;
+            margin-left: 0.4rem;
+            a{
+                color: $color-grey-dark-1;
+            }
+            a:hover{
+                color: #c73450 !important;
+            }
+        }
+    }
+}

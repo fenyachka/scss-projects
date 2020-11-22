@@ -1,0 +1,24 @@
+@import "../bootstrap/css/bootstrap-grid.min.css";
+@import "../bootstrap/css/bootstrap-grid.css";
+@import "../bootstrap/css/bootstrap.css";
+@import "../bootstrap/css/bootstrap-reboot.css";
+
+/*custom scss*/
+@import "base";
+@import "typography";
+@import "layout";
+@import "pages/home";
+@import "pages/our-students";
+@import "pages/sound-frames";
+@import "pages/article";
+@import "pages/video";
+@import "pages/portfolio";
+@import "pages/article-news";
+@import "pages/multimedia";
+
+@import "components";
+@import "animation";
+@import "header";
+@import "footer";
+//@import "navigation";  
+@import "nav";  

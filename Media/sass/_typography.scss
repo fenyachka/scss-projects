@@ -1,0 +1,117 @@
+%heading{
+  font-family: $font-BebasNeueRegular;
+  font-weight: 400;
+}
+
+.heading-1{
+  @extend %heading;
+}
+
+.heading-2{
+  @extend %heading;
+  font-size: 3rem;
+
+  @media (max-width: 991.98px) {  
+    font-size: 2.2rem;
+   }
+   
+
+  @media (max-width: 575.98px) { 
+    font-size: 2rem;
+  }
+}
+
+.heading-3{
+  @extend %heading;
+  color: $color-black;
+  font-size: 1.7rem;
+
+  @media (max-width: 991.98px) { 
+    font-size: 1.5rem;
+   }
+   
+
+  @media (max-width: 575.98px) { 
+    font-size: 1.3rem;
+  }
+  
+}
+
+ 
+.heading-4{
+  @extend %heading;
+  color: $color-white;
+  font-size: 2rem;
+  &--black{
+    color: $color-black;
+    font-family: $font-BebasNeueBold;
+  }
+}
+
+.heading-5{
+  @extend %heading;
+  color: $color-grey-dark-1;
+  font-size: 1.6rem;
+
+  @media (max-width: 991.98px) { 
+    font-size: 1.5rem;
+   }
+   
+
+  @media (max-width: 575.98px) { 
+    font-size: 1.2rem;
+  }
+}
+
+
+.p-text{
+  color: $color-grey-light-2;
+  font-family: $font-UbuntuRegular;
+  font-size: 1.5rem;
+}
+
+.heading-primary {
+  @extend %heading;
+  color: $color-white;
+  text-transform: uppercase;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  margin: 2rem 0 6rem 0;
+
+  &--main {
+    display: block;
+    font-size: 6rem;
+    font-weight: 400;
+    letter-spacing: 0.5rem;
+
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+
+    @media (max-width: 767.98px) { 
+      font-size: 4.5rem;
+    }
+
+    @media (max-width: 575.98px) { 
+      font-size: 3rem;
+    }
+  }
+
+
+}
+
+.date{
+  @extend %heading;
+  color: $color-primary;
+  font-size: 1.9rem;
+
+  @media (max-width: 767.98px) { 
+    font-size: 1.5rem;
+  }
+
+  @media (max-width: 575.98px) { 
+    font-size: 1.2rem;
+  }
+}
+
+

@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'bebas-neue-regular';
+  src: url('../assets/fonts/bebas-neue-regular.otf');
+}
+@font-face {
+  font-family: 'bebas-neue-book';
+  src: url('../assets/fonts/BebasNeue-Book.otf');
+}
+@font-face {
+  font-family: 'BebasNeue';
+  src: url('../assets/fonts/BebasNeue-Regular.otf');
+}
+@font-face {
+  font-family: 'bebas-neue-bold';
+  src: url('../assets/fonts/bebas-neue-bold.otf');
+}
+@font-face {
+  font-family: 'Ubuntu-Italic';
+  src: url('../assets/fonts/Ubuntu/Ubuntu-Italic.ttf');
+}
+@font-face {
+  font-family: 'Ubuntu-Regular';
+  src: url('../assets/fonts/Ubuntu/Ubuntu-Regular.ttf');
+}
+
+// COLOR VARIABLES
+$color-primary: #c73450;
+$color-primary-light: #d787b3;
+$color-primary-dark: #cf1840;
+
+$color-grey-light-1: #f9f7f6;
+$color-grey-light-2: #aaa;
+$color-grey-light-3: #676b76;
+$color-grey-light-4: #95908c;
+$color-grey-light-5: #c7c7c7;
+
+
+$color-grey-dark-1: #212529;
+$color-grey-dark-2: #333333;
+
+$color-black: #000000;
+$color-white: #ffffff;
+
+$color-light-blue:#1ebdc3;
+$color-dark-blue:#0852b5;
+
+$color-light-yellow:#b5a67b;
+$color-lighter-yellow:#d6c657;
+$color-light-purple:#581121;
+
+
+// FONT VARIABLES
+$font-BebasNeueBook: 'bebas-neue-book';
+$font-BebasNeueBold: 'bebas-neue-bold';
+$font-BebasNeueRegular: 'bebas-neue-regular';
+
+$font-BebasNeue: 'BebasNeue';
+$font-UbuntuItalic: 'Ubuntu-Italic';
+$font-UbuntuRegular: 'Ubuntu-Regular';
+
+
+$shadow-light: 0 2rem 5rem rgba(0,0,0, .06);
+
+*,
+*::before,
+*::after{
+  margin:0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html{
+  font-size: 62.5%; //10px/16px=62.5% ->1rem=10px;
+}
+
+body{
+  box-sizing: border-box;
+  padding: 3rem;
+
+  @media (max-width: 767.98px) { 
+    padding: 0;
+  }
+
+  @media (max-width: 575.98px) { 
+    padding: 0;
+  }
+}
+
