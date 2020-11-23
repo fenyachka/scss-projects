@@ -5,27 +5,23 @@
 /*custom scss*/
 @font-face {
   font-family: 'bebas-neue-regular';
-  src: url("../assets/fonts/bebas-neue-regular.otf"); }
+  src: url("../assets/fonts/Roboto-Regular.ttf"); }
 
 @font-face {
   font-family: 'bebas-neue-book';
-  src: url("../assets/fonts/BebasNeue-Book.otf"); }
-
-@font-face {
-  font-family: 'BebasNeue';
-  src: url("../assets/fonts/BebasNeue-Regular.otf"); }
+  src: url("../assets/fonts/Roboto-Light.ttf"); }
 
 @font-face {
   font-family: 'bebas-neue-bold';
-  src: url("../assets/fonts/bebas-neue-bold.otf"); }
+  src: url("../assets/fonts/Roboto-Bold.ttf"); }
 
 @font-face {
   font-family: 'Ubuntu-Italic';
-  src: url("../assets/fonts/Ubuntu/Ubuntu-Italic.ttf"); }
+  src: url("../assets/fonts/Roboto-Italic.ttf"); }
 
 @font-face {
   font-family: 'Ubuntu-Regular';
-  src: url("../assets/fonts/Ubuntu/Ubuntu-Regular.ttf"); }
+  src: url("../assets/fonts/Roboto-Medium.ttf"); }
 
 *,
 *::before,
@@ -93,16 +89,18 @@ body {
   font-size: 1.5rem; }
 
 .heading-primary {
+  text-transform: capitalize !important;
   color: #ffffff;
   text-transform: uppercase;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   margin: 2rem 0 6rem 0; }
   .heading-primary--main {
+    font-family: "bebas-neue-regular";
     display: block;
     font-size: 6rem;
     font-weight: 400;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.35rem;
     animation-name: moveInLeft;
     animation-duration: 1s;
     animation-timing-function: ease-out; }
@@ -114,7 +112,7 @@ body {
         font-size: 3rem; } }
 
 .date {
-  color: #c73450;
+  color: #303f9f;
   font-size: 1.9rem; }
   @media (max-width: 767.98px) {
     .date {
@@ -127,7 +125,7 @@ body {
   height: 10vh; }
   .section-subscribe__bg {
     padding: 20rem 0;
-    background-image: linear-gradient(to right bottom, rgba(199, 52, 80, 0.8), rgba(207, 24, 64, 0.8)), url(../assets/img/slide_1.jpg);
+    background-image: linear-gradient(to right bottom, rgba(48, 63, 159, 0.8), rgba(0, 25, 112, 0.8)), url(../assets/img/slide_1.jpg);
     background-size: cover;
     background-position: bottom center;
     margin-top: -10rem; }
@@ -159,7 +157,7 @@ section > .container {
     height: auto; }
     .media__block:hover .media__block-overlay {
       opacity: 1;
-      background-color: rgba(199, 52, 80, 0.5); }
+      background-color: rgba(48, 63, 159, 0.5); }
     .media__block-overlay {
       position: absolute;
       cursor: pointer;
@@ -174,7 +172,7 @@ section > .container {
       z-index: 10; }
       .media__block-overlay:hover {
         opacity: 1;
-        background-color: rgba(199, 52, 80, 0.5); }
+        background-color: rgba(48, 63, 159, 0.5); }
       .media__block-overlay .newsButton {
         position: absolute;
         top: 50%;
@@ -188,7 +186,7 @@ section > .container {
       bottom: -2%;
       position: absolute;
       cursor: pointer;
-      border: 1px solid #d787b3; }
+      border: 1px solid #666ad1; }
     .media__block-img {
       width: 100%; }
     .media__block-name {
@@ -230,7 +228,7 @@ section > .container {
           height: auto; } }
     .our-students .pers-card__block:hover .our-students .pers-card__block-overlay {
       opacity: 1;
-      background-color: rgba(199, 52, 80, 0.5); }
+      background-color: rgba(48, 63, 159, 0.5); }
     .our-students .pers-card__block-overlay {
       position: absolute;
       cursor: pointer;
@@ -247,7 +245,7 @@ section > .container {
       @media (min-width: 575.98px) {
         .our-students .pers-card__block-overlay:hover {
           opacity: 1;
-          background-color: rgba(199, 52, 80, 0.5); } }
+          background-color: rgba(48, 63, 159, 0.5); } }
       @media (max-width: 575.98px) {
         .our-students .pers-card__block-overlay {
           padding: 14rem 0 0 1.5rem;
@@ -261,7 +259,7 @@ section > .container {
       text-align: left;
       color: #ffffff;
       position: absolute;
-      top: 8rem;
+      top: 24rem;
       left: 1rem;
       width: 50%;
       font-family: "bebas-neue-regular"; }
@@ -275,7 +273,7 @@ section > .container {
       box-decoration-break: clone;
       line-height: 1.5; }
       .our-students .pers-card__block__heading-span--1 {
-        background-image: linear-gradient(to right bottom, rgba(215, 135, 179, 0.85), rgba(207, 24, 64, 0.85)); }
+        background-image: linear-gradient(to right bottom, rgba(102, 106, 209, 0.85), rgba(0, 25, 112, 0.85)); }
     .our-students .pers-card__block-border {
       width: 100%;
       height: 100%;
@@ -283,7 +281,7 @@ section > .container {
       bottom: -2%;
       position: absolute;
       cursor: pointer;
-      border: 1px solid #d787b3; }
+      border: 1px solid #666ad1; }
 
 .sound-frames {
   padding: 25rem 0;
@@ -319,7 +317,7 @@ section > .container {
       padding-right: .8rem; }
       .articles .article-block .icon-pdf {
         font-size: 5rem;
-        color: #c73450; }
+        color: #303f9f; }
 
 .video {
   padding: 25rem 0;
@@ -328,7 +326,7 @@ section > .container {
     margin-bottom: 3rem; }
     .video__block-wrapper {
       padding: 5px 5px 0px 5px;
-      background: #d787b3; }
+      background: #666ad1; }
     .video__block-name {
       padding: 1.7rem 0.4rem; }
   .video iframe {
@@ -498,7 +496,7 @@ figure.effect-lily:hover p {
       margin-bottom: 3rem;
       margin-right: 0; } }
   .portfolio .review__text {
-    font-family: "BebasNeue";
+    font-family: "bebas-neue-regular";
     margin-bottom: 2rem;
     z-index: 10;
     position: relative;
@@ -519,13 +517,13 @@ figure.effect-lily:hover p {
     font-size: 2rem;
     margin-bottom: 0.4rem; }
   .portfolio .review__user-date {
-    color: #c73450;
+    color: #303f9f;
     font-size: 1.2rem; }
 
 .block__title {
   font-family: "bebas-neue-bold";
   color: #212529;
-  border-left: 0.5rem solid #cf1840;
+  border-left: 0.5rem solid #001970;
   padding-left: 1rem;
   background-color: #fff;
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.06);
@@ -552,7 +550,7 @@ figure.effect-lily:hover p {
 
 .multimedia-card__btn {
   border: none;
-  color: #c73450;
+  color: #303f9f;
   font-family: "bebas-neue-regular";
   font-size: inherit;
   border-bottom: 1px solid currentColor;
@@ -575,10 +573,10 @@ figure.effect-lily:hover p {
 .multimedia-card__link {
   color: inherit; }
   .multimedia-card__link:hover {
-    color: #c73450; }
+    color: #303f9f; }
 
 .multimedia-card__date span {
-  background-color: #cf1840;
+  background-color: #001970;
   color: #ffffff;
   border-radius: 2px;
   padding: 2px; }
@@ -608,7 +606,7 @@ figure.effect-lily:hover p {
   font-size: 1.2rem;
   margin-top: auto; }
   .article-news__date-span {
-    background-color: #cf1840;
+    background-color: #001970;
     border-radius: 3px;
     padding: 2px; }
 
@@ -617,7 +615,7 @@ figure.effect-lily:hover p {
   font-size: 2.8rem; }
   .article-news__title-std {
     font-family: "bebas-neue-bold";
-    color: #c73450; }
+    color: #303f9f; }
 
 .article-news__text {
   color: #212529;
@@ -637,7 +635,7 @@ figure.effect-lily:hover p {
     margin-bottom: 3rem;
     height: auto; }
   .multimedia__date {
-    color: #c73450;
+    color: #303f9f;
     border-radius: 2px;
     padding: 2px;
     font-size: 1.4rem; }
@@ -655,9 +653,11 @@ figure.effect-lily:hover p {
         color: #212529; }
       .multimedia__title--prev a:hover {
         color: #c73450 !important; }
+  .multimedia__text {
+    font-size: 1.6rem; }
 
 .btn, .btn:link, .btn:visited {
-  font-family: "BebasNeue";
+  font-family: "bebas-neue-regular";
   text-transform: uppercase;
   text-decoration: none;
   padding: 1.5rem 4rem;
@@ -693,7 +693,7 @@ figure.effect-lily:hover p {
   color: #ffffff;
   display: inline-block;
   text-decoration: none;
-  border-bottom: 1px solid #c73450;
+  border-bottom: 1px solid #303f9f;
   padding: 3px;
   transition: all .2s; }
 
@@ -744,12 +744,13 @@ figure.effect-lily:hover p {
 
 .header {
   height: 40vh;
-  background-image: url(../assets/img/slide_1.jpg);
+  background-image: linear-gradient(to right bottom, rgba(48, 63, 159, 0.45), rgba(0, 25, 112, 0.6)), url(../assets/img/slide_1.jpg);
   background-size: cover;
-  background-position: top;
+  background-position: center;
   position: relative;
   padding: 2rem;
-  padding-bottom: 4rem; }
+  padding-bottom: 4rem;
+  background-repeat: no-repeat; }
   @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
     .header {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 32vh, 0 100%);
@@ -938,10 +939,10 @@ figure.effect-lily:hover p {
   font-size: 1.5rem;
   font-weight: 300;
   padding: 0.7rem 2rem;
-  color: #c73450;
+  color: #303f9f;
   text-decoration: none;
   text-transform: uppercase;
-  background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #c73450 50%);
+  background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #303f9f 50%);
   background-size: 220%;
   transition: 0.4s; }
   .navigation__link:link span, .navigation__link:visited span {

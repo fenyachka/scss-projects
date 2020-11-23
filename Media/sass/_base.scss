@@ -1,32 +1,29 @@
 @font-face {
   font-family: 'bebas-neue-regular';
-  src: url('../assets/fonts/bebas-neue-regular.otf');
+  src: url('../assets/fonts/Roboto-Regular.ttf');
 }
 @font-face {
   font-family: 'bebas-neue-book';
-  src: url('../assets/fonts/BebasNeue-Book.otf');
+  src: url('../assets/fonts/Roboto-Light.ttf');
 }
-@font-face {
-  font-family: 'BebasNeue';
-  src: url('../assets/fonts/BebasNeue-Regular.otf');
-}
+
 @font-face {
   font-family: 'bebas-neue-bold';
-  src: url('../assets/fonts/bebas-neue-bold.otf');
+  src: url('../assets/fonts/Roboto-Bold.ttf');
 }
 @font-face {
   font-family: 'Ubuntu-Italic';
-  src: url('../assets/fonts/Ubuntu/Ubuntu-Italic.ttf');
+  src: url('../assets/fonts/Roboto-Italic.ttf');
 }
 @font-face {
   font-family: 'Ubuntu-Regular';
-  src: url('../assets/fonts/Ubuntu/Ubuntu-Regular.ttf');
+  src: url('../assets/fonts/Roboto-Medium.ttf');
 }
 
 // COLOR VARIABLES
-$color-primary: #c73450;
-$color-primary-light: #d787b3;
-$color-primary-dark: #cf1840;
+$color-primary: #303f9f;
+$color-primary-light: #666ad1;
+$color-primary-dark: #001970;
 
 $color-grey-light-1: #f9f7f6;
 $color-grey-light-2: #aaa;
@@ -54,7 +51,7 @@ $font-BebasNeueBook: 'bebas-neue-book';
 $font-BebasNeueBold: 'bebas-neue-bold';
 $font-BebasNeueRegular: 'bebas-neue-regular';
 
-$font-BebasNeue: 'BebasNeue';
+
 $font-UbuntuItalic: 'Ubuntu-Italic';
 $font-UbuntuRegular: 'Ubuntu-Regular';
 
@@ -81,7 +78,7 @@ body{
     padding: 0;
   }
 
-  @media (max-width: 575.98px) { 
+  @media (max-width: 575.98px) {  
     padding: 0;
   }
 }

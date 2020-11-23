@@ -29,7 +29,7 @@ body {
   color: #020202; }
 
 .navigation {
-  background-color: rgba(200, 36, 63, 0.9);
+  background-color: #006db3;
   /* NAVIGATION */
   /* stroke */ }
   .navigation .nav-brand {
@@ -102,11 +102,11 @@ body {
     padding: 0.45rem 2rem;
     color: #020202; }
     .navigation .dropdown-item:hover {
-      color: #c8243f; }
+      color: #0288d1; }
     .navigation .dropdown-item .active, .navigation .dropdown-item:active {
       color: #f9f9f9;
       text-decoration: none;
-      background-color: #c8243f; }
+      background-color: #0288d1; }
 
 .navbar-default .custom-toggler.navbar-toggler {
   border-color: #ffffff; }
@@ -117,14 +117,14 @@ body {
     font-family: "MuseoSans";
     text-transform: uppercase; }
     .article-title--main {
-      border-left: 0.3rem solid #c8243f;
+      border-left: 0.3rem solid #0288d1;
       padding-left: 1rem; }
     .article-title--sub {
       margin-bottom: 1rem; }
     .article-title__link {
       color: #020202; }
       .article-title__link:hover {
-        color: #c8243f;
+        color: #0288d1;
         text-decoration: none;
         transition: 0.2s ease-out; }
   .article-content {
@@ -140,7 +140,7 @@ body {
       font-weight: 400; }
   .article-date {
     text-transform: uppercase;
-    color: #c8243f;
+    color: #0288d1;
     font-weight: 500;
     font-size: 1.18rem;
     margin-bottom: 0rem; }
@@ -155,7 +155,7 @@ body {
   display: block;
   content: "";
   width: 5rem;
-  border: 1px #c8243f solid;
+  border: 1px #0288d1 solid;
   margin-top: 0.5em;
   margin-bottom: 1em; }
 
@@ -241,12 +241,12 @@ section > .container {
   color: #020202;
   display: inline-block;
   text-decoration: none;
-  border-bottom: 1px solid #c8243f;
+  border-bottom: 1px solid #0288d1;
   padding: 0.4rem;
   transition: all .2s; }
 
 .btn-text:hover {
-  color: #c8243f;
+  color: #0288d1;
   font-weight: 100;
   box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.15);
   transform: translateY(-2px); }
